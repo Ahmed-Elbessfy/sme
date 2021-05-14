@@ -1,10 +1,16 @@
-//Main Container Div 
+//Main Container Div
 .container {
-    // width: 95%;
-    // max-width: 90rem;
-    // margin: auto;
-
-    // @media #{$xs_media} {
-    //     width: 80%;
-    // }
+  // default style is for mobile devices
+  // medium screens more than 767px
+  @media #{$sm-screen} {
+    width: 90%;
+    max-width: 50rem;
+    margin: auto;
+  }
+  // large screens more than 992px
+  @media #{$md-screen} {
+    width: 80%;
+    max-width: 90rem;
+    margin: auto;
+  }
 }

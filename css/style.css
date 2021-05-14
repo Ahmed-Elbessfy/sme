@@ -67,6 +67,18 @@ img {
 button {
   text-transform: capitalize; }
 
+@media (min-width: 767px) {
+  .container {
+    width: 90%;
+    max-width: 50rem;
+    margin: auto; } }
+
+@media (min-width: 992px) {
+  .container {
+    width: 80%;
+    max-width: 90rem;
+    margin: auto; } }
+
 .orange-cl {
   color: #f27024 !important; }
 

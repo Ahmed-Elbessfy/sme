@@ -1,4 +1,4 @@
-$basic-fz : 15px !default;
+$basic-fz: 15px !default;
 
 //colors
 $orange-cl: #f27024 !default;
@@ -7,10 +7,14 @@ $gray-cl: #efefef !default;
 $white-cl: #fff !default;
 
 //font families
-$main-ff: "Segoe UI",
-"Segoe WF",
-"Segoe Regular" !default;
+$main-ff: "Segoe UI", "Segoe WF", "Segoe Regular" !default;
 
 // Media Queries
-$xs-width : 767px;
-$xs-screen: (max-width:$xs-width);
+$sm-width: 767px;
+$sm-screen: (
+  min-width: $sm-width,
+);
+$md-width: 992px;
+$md-screen: (
+  min-width: $md-width,
+);
