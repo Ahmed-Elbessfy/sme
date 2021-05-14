@@ -100,7 +100,16 @@ button {
   background-color: #efefef !important; }
 
 nav {
-  padding: 5px; }
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
   nav .brand {
     width: 11rem;
     display: -webkit-box;

@@ -1,5 +1,8 @@
 nav {
   padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   .brand {
     width: 11rem;
     display: flex;
