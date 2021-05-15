@@ -36,7 +36,9 @@ nav {
     li.nav-link {
       margin: 1rem;
     }
-    &.show {
+  }
+  &.show {
+    ul.nav-links {
       @include prefixer(transform, translateX(0), webkit o moz);
     }
   }
