@@ -109,7 +109,8 @@ nav {
           justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  height: 10vh; }
   nav .brand {
     width: 11rem;
     display: -webkit-box;
@@ -125,6 +126,30 @@ nav {
       border: 2px solid white;
       max-width: 3.5rem;
       margin-right: 5px; }
+  nav ul.nav-links {
+    position: absolute;
+    top: calc(10vh + 3px);
+    right: 0;
+    width: 50%;
+    height: calc(90vh - 3px);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Segoe UI", "Segoe WF", "Segoe Regular";
+    font-weight: 500;
+    font-size: 1.2rem;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: transform 0.5s ease-in;
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    opacity: 0; }
+    nav ul.nav-links li.nav-link {
+      margin: 1rem; }
+    nav ul.nav-links.show {
+      -webkit-transform: translateX(0);
+      transform: translateX(0); }
 
 button.toggle-nav {
   height: 2.5rem;

@@ -3,6 +3,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 10vh;
   .brand {
     width: 11rem;
     display: flex;
@@ -12,6 +13,31 @@ nav {
       border: 2px solid white;
       max-width: 3.5rem;
       margin-right: 5px;
+    }
+  }
+  ul.nav-links {
+    position: absolute;
+    top: calc(10vh + 3px);
+    right: 0;
+    width: 50%;
+    height: calc(90vh - 3px);
+    text-align: center;
+    text-transform: uppercase;
+    font: {
+      family: $main-ff;
+      weight: 500;
+      size: 1.2rem;
+    }
+    @include prefixer(transform, translateX(100%), webkit o moz);
+    @include prefixer(transition, transform 0.5s ease-in, webkit o moz);
+    // initial value is 0 but this change to 1 on user click on toggle button with javascript
+    // this is to prevent showing navbar on load then apply translateX
+    opacity: 0;
+    li.nav-link {
+      margin: 1rem;
+    }
+    &.show {
+      @include prefixer(transform, translateX(0), webkit o moz);
     }
   }
 }
