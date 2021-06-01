@@ -179,6 +179,17 @@ button.toggle-nav {
       -webkit-transform: rotate(45deg) translate(-6px, -6px);
       transform: rotate(45deg) translate(-6px, -6px); }
 
+.info .info_btn {
+  position: absolute;
+  bottom: -21px;
+  padding: 0.8rem 1.2rem;
+  border-radius: 2rem;
+  width: 10rem;
+  font-size: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px; }
+
 header .quote {
   padding: 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 68, 92, 0.8)), to(rgba(0, 68, 92, 0.8))), url(../../../img/page_155.png) center center no-repeat;
