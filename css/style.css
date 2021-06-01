@@ -175,4 +175,11 @@ button.toggle-nav {
     nav.show button.toggle-nav span:last-child {
       -webkit-transform: rotate(45deg) translate(-6px, -6px);
       transform: rotate(45deg) translate(-6px, -6px); }
+
+header .quote {
+  padding: 2rem;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 68, 92, 0.8)), to(rgba(0, 68, 92, 0.8))), url(../../../img/page_155.png) center center no-repeat;
+  background: linear-gradient(rgba(0, 68, 92, 0.8), rgba(0, 68, 92, 0.8)), url(../../../img/page_155.png) center center no-repeat;
+  background-size: cover;
+  text-align: center; }
 /*# sourceMappingURL=style.css.map */

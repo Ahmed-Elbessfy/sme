@@ -1,3 +1,9 @@
 header {
-
+  .quote {
+    padding: 2rem;
+    background: linear-gradient(rgba($blue_cl, 0.8), rgba($blue_cl, 0.8)),
+      url(../../../img/page_155.png) center center no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
 }
