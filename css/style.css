@@ -187,7 +187,37 @@ header .quote {
   text-align: center; }
 
 section {
-  padding: 3rem 1rem;
-  display: -ms-grid;
-  display: grid; }
+  padding: 3rem 1rem; }
+  section .container {
+    display: -ms-grid;
+    display: grid; }
+  section.info .container {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 2rem; }
+    section.info .container div {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      background-color: #fff;
+      position: relative;
+      margin-top: 3rem;
+      padding: 4rem 2rem 2rem;
+      border-radius: 1rem; }
+      section.info .container div img {
+        max-width: 6rem;
+        position: absolute;
+        top: -3rem;
+        border: 6px solid #efefef;
+        border-radius: 1rem; }
 /*# sourceMappingURL=style.css.map */
