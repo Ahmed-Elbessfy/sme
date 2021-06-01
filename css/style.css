@@ -79,7 +79,7 @@ button {
     max-width: 90rem;
     margin: auto; } }
 
-.orange-cl {
+.orange-cl, section.info .container div li:before {
   color: #f27024 !important; }
 
 .orange-bg {
@@ -237,4 +237,9 @@ section {
         top: -3rem;
         border: 6px solid #efefef;
         border-radius: 1rem; }
+      section.info .container div li:before {
+        content: "\25aa";
+        position: relative;
+        left: -1rem;
+        font-size: 1.2rem; }
 /*# sourceMappingURL=style.css.map */

@@ -27,6 +27,15 @@ section {
           border: 6px solid #efefef;
           border-radius: 1rem;
         }
+
+        // orange bullets
+        li:before {
+          content: "\25aa";
+          position: relative;
+          left: -1rem;
+          font-size: 1.2rem;
+          @extend .orange-cl;
+        }
       }
     }
   }
