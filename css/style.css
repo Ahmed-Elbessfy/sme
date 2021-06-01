@@ -190,6 +190,12 @@ button.toggle-nav {
   text-align: center;
   letter-spacing: 1px; }
 
+.info .heading {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold; }
+
 header .quote {
   padding: 2rem;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 68, 92, 0.8)), to(rgba(0, 68, 92, 0.8))), url(../../../img/page_155.png) center center no-repeat;
